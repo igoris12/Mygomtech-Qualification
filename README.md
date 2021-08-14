@@ -1,31 +1,31 @@
 # Interview task User management
 
 ## How to start
-* create a GitHub project from the template by clicking `Use this template` and filling the information required 
-* create a new branch `develop`
-* before returning the task create a merge request from `develop` to `master` in your repository, so it's easier to see all the changes
+
+- create a GitHub project from the template by clicking `Use this template` and filling the information required
+- create a new branch `develop`
+- before returning the task create a merge request from `develop` to `master` in your repository, so it's easier to see all the changes
 
 ## Setup
 
-* run `yarn`
-* run `yarn start`. make sure required ports are available
-* open `http://localhost:8080/`
-* Enter your mocked user credentials
-    
-    *username:* `admin`
+- run `yarn`
+- run `yarn start`. make sure required ports are available
+- open `http://localhost:8080/`
+- Enter your mocked user credentials
 
-    *password:* `admin`
+  _username:_ `admin`
+
+  _password:_ `admin`
 
 ## Scripts
 
- `yarn start:server` - starts mocked backend.
+`yarn start:server` - starts mocked backend.
 
- `yarn start:web` - starts dev server.
- 
- `yarn start` - starts both dev server and mocked backend.
- 
- `yarn test` - runs tests in project.
+`yarn start:web` - starts dev server.
 
+`yarn start` - starts both dev server and mocked backend.
+
+`yarn test` - runs tests in project.
 
 ## Information
 
