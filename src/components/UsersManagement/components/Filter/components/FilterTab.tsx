@@ -13,7 +13,8 @@ const FilterTab: FC<IFilterTab> = ({
   path,
 }) => {
   const {push} = useHistory();
-
+  
+  
   return (
     <div className="filter-tab" onClick={() => push(path)}>
       {`${title} (${count})`}
